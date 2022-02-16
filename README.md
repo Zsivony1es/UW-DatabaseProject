@@ -18,7 +18,7 @@ This website and the database is hosted on the servers of the university (Almigh
 <a name="db"></a>
 ## Database
 
-![ER Model of The Database](url)
+![ER Model of The Database](https://github.com/Zsivony1es/UW-DatabaseProject/blob/main/ER%20Diagram.png)
 
 <a name="jp"></a>
 ## Java Program
