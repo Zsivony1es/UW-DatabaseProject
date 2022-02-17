@@ -18,12 +18,15 @@ This website and the database is hosted on the servers of the university (Almigh
 <a name="db"></a>
 ## Database
 
-![ER Model of The Database](https://github.com/Zsivony1es/UW-DatabaseProject/blob/main/ER%20Diagram.png)
+![ER Model of The Database](https://github.com/Zsivony1es/UW-DatabaseProject/blob/main/ER%20Diagram.png)\
+The picture above depicts the initial ER Model of the database in Chen-notation. In the description document you can find the textual description of this model, the transformed relational model and the physical SQL model can be found in `sources/sql`. Running the create script will establish all relations of the database and it also includes a trigger, a couple of views and a generator. This database was hosted on the server of the university for the project.
 
 <a name="jp"></a>
 ## Java Program
 
-
+The goal of the Java program was to fill up the relations of the completed database with semi-random data. The files can be found in `sources/java`. In the `resources` folder I have saved some CSV files, that I'm going to be using to create the data I will be inserting into the database. The `src` folder contains the program code.\
+To achieve my goal I have created 4 different classes:
+  + `DatabaseHelper.java` - Its task is to sustain the communication to the database. Its class methods are performing the data inserts/reads.
 
 <a name="ws"></a>
 ## Website
