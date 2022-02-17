@@ -2,9 +2,9 @@
 
 class DatabaseHelper
 {
-    const username = 'a11922002';
-    const password = 'okolare1';
-    const con_string = 'lab';
+    const username = 'DATABASE USERNAME (not public)';
+    const password = 'DATABASE PASSWORD (not public)';
+    const con_string = 'CONNECTION STRING (not public)';
 
     protected $conn;
 
