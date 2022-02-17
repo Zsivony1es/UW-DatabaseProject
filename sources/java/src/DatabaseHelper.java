@@ -4,9 +4,9 @@ import java.util.List;
 
 public class DatabaseHelper {
 
-    private static final String DB_CONNECTION_URL = "jdbc:oracle:thin:@oracle-lab.cs.univie.ac.at:1521:lab";
-    private static final String USER = "a11922002";
-    private static final String PASS = "okolare1";
+    private static final String DB_CONNECTION_URL = "<CONNECTION URL OF THE UW DATABASE> (not public)";
+    private static final String USER = "<MY USERNAME FOR THE DATABASE> (not public)";
+    private static final String PASS = "<MY PASSWORD FOR THE DATABASE> (not public)";
 
     private static Connection con;
     private static PreparedStatement prepStmt;
