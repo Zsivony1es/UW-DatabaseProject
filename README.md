@@ -49,16 +49,16 @@ To create the website I have used HTML5, CSS and PHP. This website is hosted on 
   + There is also a folder for each of the CRUD operations, which have a main page PHP file and a form php file. The form php file has functions that return a string for a required HTML form. These forms require inputs from the user to give parameters to the operations.
 
 ### Screenshots
-
-![Main Page](https://github.com/Zsivony1es/UW-DatabaseProject/blob/main/site_screenshots/main_site.png)
-![Registration](https://github.com/Zsivony1es/UW-DatabaseProject/blob/main/site_screenshots/registration.png)
-![User Login](https://github.com/Zsivony1es/UW-DatabaseProject/blob/main/site_screenshots/user_login.png)
-![Admin Login](https://github.com/Zsivony1es/UW-DatabaseProject/blob/main/site_screenshots/admin_login.png)
+#### Main Page
+![Main Page](https://github.com/Zsivony1es/UW-DatabaseProject/blob/main/site_screenshots/main_site.png) 
+#### Registration
+![Registration](https://github.com/Zsivony1es/UW-DatabaseProject/blob/main/site_screenshots/registration.png) 
+#### User login 
+![User Login](https://github.com/Zsivony1es/UW-DatabaseProject/blob/main/site_screenshots/user_login.png) 
+#### Admin login
+![Admin Login](https://github.com/Zsivony1es/UW-DatabaseProject/blob/main/site_screenshots/admin_login.png) 
+#### Movie Listing
 ![Movie Listing](https://github.com/Zsivony1es/UW-DatabaseProject/blob/main/site_screenshots/movie_list.png)
-
-
-
-
 
 <a name="ct"></a>
 ## Closing Thoughts
