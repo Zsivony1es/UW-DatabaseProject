@@ -36,7 +36,21 @@ To achieve my goal I have created 4 different classes:
 <a name="ws"></a>
 ## Website
 
+#### Basic description
 
+To create the website I have used HTML5, CSS and PHP. This website is hosted on the servers of the University of Vienna. The main website is saved in the `ìndex.php` file, and it includes a login screen and an option to redirect the user to the registration page. The user's age and name is saved in the "Kunde" relation in the database and on login tries to find an entry that has a matching name with the string entered in the login textbox. If it finds a matching entry, the user is redirected to the logged-in screen. Using the "admin" name for the login, the user gets redirected to an admin interface. The user logged-in screen has an option to list the first 20 movies that will be shown at one of the movie theaters and also includes a logout button. The admin screen has the options to modify the cashier, cleaner and technician relations, by inserting new entries into them, deleting or modifying existing entries, or listing other entries that meet the given search criteria.
+
+#### Technical details
+
+  + `index.php` - The main website
+  + `register.php` - The registration website
+  + `DatabaseHelper.php` - This PHP class is similar in its task to the DatabaseHelper class from Java, as in it is responsible for handling the communication with the database.
+  + `styles.css`- Self-explanatory, I save the CSS designs in a separate file
+  + There is also a folder for each of the CRUD operations, which have a main page PHP file and a form php file. The form php file has functions that return a string for a required HTML form. These forms require inputs from the user to give parameters to the operations.
+
+### Screenshots
+
+![Main Page](https://github.com/Zsivony1es/UW-DatabaseProject/blob/main/site_screenshots/main_site.png)\
 
 <a name="ct"></a>
 ## Closing Thoughts
