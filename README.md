@@ -44,7 +44,7 @@ To create the website I have used HTML5, CSS and PHP. This website is hosted on 
 
   + `index.php` - The main website
   + `register.php` - The registration website
-  + `DatabaseHelper.php` - This PHP class is similar in its task to the DatabaseHelper class from Java, as in it is responsible for handling the communication with the database.
+  + `DatabaseHelper.php` - This PHP class is similar in its task to the DatabaseHelper class from Java, as in it is responsible for handling the communication with the database. Here I use OCI8 to establish this connection.
   + `styles.css`- Self-explanatory, I save the CSS designs in a separate file
   + There is also a folder for each of the CRUD operations, which have a main page PHP file and a form php file. The form php file has functions that return a string for a required HTML form. These forms require inputs from the user to give parameters to the operations.
 
@@ -62,3 +62,16 @@ To create the website I have used HTML5, CSS and PHP. This website is hosted on 
 
 <a name="ct"></a>
 ## Closing Thoughts
+
+Alltogether I really enjoyed working on this project, and it really helped me evolve my skills as a programmer. There are a bunch of new skills I've learned during this project, including
+  + The process of modelling a database
+  + Relational algebra
+  + Oracle SQL
+  + HTML5
+  + CSS
+  + PHP with OCI8
+  + JDBC
+
+Thank you for checking out my repository!
+
+
